@@ -5,9 +5,9 @@ apt-get install -y htop
 
 #DNS
 cat >>/etc/hosts<<EOF
-172.42.42.100 master01.example.com master01
-172.42.42.101 node01.example.com node01
-172.42.42.102 node02.example.com node02
+112.198.81.100 master01.example.com master01
+112.198.81.101 node01.example.com node01
+112.198.81.102 node02.example.com node02
 EOF
 
 #Disable Swap

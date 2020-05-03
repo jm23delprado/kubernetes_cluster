@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Kubeadm Initialize
-kubeadm init --apiserver-advertise-address=172.42.42.100 --pod-network-cidr=192.168.0.0/16 >> /root/kubeinit.log 2>/dev/null
+kubeadm init --apiserver-advertise-address=112.198.81.100 --pod-network-cidr=192.168.0.0/16 >> /root/kubeinit.log 2>/dev/null
 
 ##Home Directory
 mkdir -p /home/vagrant/.kube
